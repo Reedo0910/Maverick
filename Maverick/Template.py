@@ -65,6 +65,7 @@ class Template:
         })
         fg.link(href=self._config.site_prefix, rel='alternate')
         fg.logo(fp(self._config.site_logo))
+        fg.icon(fp(self._config.site_logo))
         fg.subtitle(fp(self._config.description))
         fg.description(fp(self._config.description) or ' ')
         fg.language(fp(self._config.language))
